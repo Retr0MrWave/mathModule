@@ -2,12 +2,21 @@ from ..number_theory.GCDandLCM import gcd, lcm
 
 class fraction:
     def __init__(self, n, d):
-        if not(type(n) is int and type(d) is int):
+        if not((type(n) is int or type(n) is fraction) and (type(d) is int or type(d) is fraction)):
 	        raise TypeError("Numerator (n) and denominator (d) must both be integers")
         if d == 0:
             raise ZeroDivisionError
-        self.n = n
-        self.d = d
+        self.d = 1
+        if type(n) is int:
+            self.n = n
+        else:
+            self.n = n.n
+            self.d = n.d
+        if type(d) is int:
+            self.d *= d
+        else:
+            self.n *= d.d
+            self.d *= d.n
     
     def simplify(self):
         g = gcd(self.n, self.d)
