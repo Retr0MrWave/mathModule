@@ -1,1 +1,1 @@
-__all__ = ["fractions", "number_theory"]
+__all__ = ["fractions", "number_theory", "calculus"]
