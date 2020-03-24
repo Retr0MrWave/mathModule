@@ -1,0 +1,1 @@
+If you found a bug, know how to make a new feature or want to make any other contribution to the project, go on, make a pull request and it will be considered. All contributions, that obey our code of conduct are welcome
