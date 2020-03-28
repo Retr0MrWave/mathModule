@@ -1,1 +1,2 @@
-__all__ = ["GCDandLCM"]
+from .GCDandLCM import gcd, lcm
+__all__ = ["gcd", "lcm"]
