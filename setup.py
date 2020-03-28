@@ -8,7 +8,7 @@ setup(
   author = 'Ilia Zhuravok',                   # Type in your name
   author_email = 'ilia.zhuravok@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/Retr0MrWave/MathModule',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/Retr0MrWave/mathModule/archive/v_002.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/Retr0MrWave/mathModule/archive/v_003.tar.gz',    # Release link
   keywords = ['MATH'],   # Keywords that define your package best
   install_requires=[],
   classifiers=[
